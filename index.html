@@ -13,22 +13,22 @@
     <div class="container">
         <nav class="menu">
             <ul class="menu-container">
-                <a class="menu-container-item" href="index.html">
-                    <li>Página inicial</li>
-                </a>
-                <a class="menu-container-item" href="#projetos">
-                    <li>Projetos</li>
-                </a>
-                <a class="menu-container-item" href="#conteudo-sobreMim">
-                    <li>Sobre mim</li>
-                </a>
-                <a class="menu-container-item" href="contact.html">
-                    <li>Contato</li>
-                </a>
+                <li class="menu-container-item">
+                    <a href="#topo" href="index.html">Página inicial</a>
+                </li>
+                <li class="menu-container-item">
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li class="menu-container-item">
+                    <a href="#conteudo-sobreMim">Sobre mim</a>
+                </li>
+                <li class="menu-container-item">
+                    <a href="contact.html">Contato</a>
+                </li>
             </ul>
         </nav>
-        <header class="cabecalho">
-            <img class="cabecalho-imagem" src="image/fone-embaçado.png" alt="">
+        <header class="cabecalho" id="topo">
+
             <div class="cabecalho-texto">
                 <h1 class="cabecalho-texto-titulo"><span class="ola">Olá!</span> Seja bem vindo!</h1>
                 <h2 class="cabecalho-texto-subtitulo">Sou Hudney Brito | Desenvolvedor Web</h2>
@@ -45,24 +45,30 @@
                 <section class="conteudo-projeto-item">Em construção</section>
             </section>
             <div id="conteudo-sobreMim">
-                <section class="conteudo-informacao conteudo-sobre">
-                    <h3 class="conteudo-titulo">Sobre mim</h3>
-                    <p class="conteudo-texto">Apreciador das mais diversas artes e um grande admirador da tecnologia. Um
-                        “sonhador realista” que vislumbra uma utopia de um futuro harmônico entre a humanidade. Em
-                        transição de carreira, volto a estudar na área que um dia almejei me capacitando com cursos
-                        práticos oferecidos por diversas plataformas. Intenso e obstinado, tenho um objetivo
-                        profissional de ser um desenvolvedor de software, campo de atividade no qual me despertou
-                        interesse.</p>
-                </section>
-                <section class="conteudo-informacao conteudo-formacao">
-                    <h3 class="conteudo-titulo">Formação</h3>
-                    <p class="conteudo-texto">Análise e desenvolvimento de sistemas</p>
-                </section>
-                <section class="conteudo-informacao conteudo-curso">
-                    <h3 class="conteudo-titulo">Cursos</h3>
-                    <p class="conteudo-texto">Conhecimento em HTML5 e CSS3 / Conhecimentos em JavaScript / Conhecimento
-                        de Git e Github / Conhecimentos em Java / Conhecimentos de POO em Java</p>
-                </section>
+                <img class="cabecalho-imagem" src="image/fone-embaçado.png" alt="">
+                <div class="container-conteudo-informacao-conteudo-sobre" >
+                    <section class="conteudo-informacao conteudo-sobre">
+                        <h3 class="conteudo-titulo">Sobre mim</h3>
+                        <p class="conteudo-texto">Apreciador das mais diversas artes e um grande admirador da
+                            tecnologia. Um
+                            “sonhador realista” que vislumbra uma utopia de um futuro harmônico entre a humanidade. Em
+                            transição de carreira, volto a estudar na área que um dia almejei me capacitando com cursos
+                            práticos oferecidos por diversas plataformas. Intenso e obstinado, tenho um objetivo
+                            profissional de ser um desenvolvedor de software, campo de atividade no qual me despertou
+                            interesse.</p>
+                    </section>
+                    <section class="conteudo-informacao conteudo-formacao">
+                        <h3 class="conteudo-titulo">Formação</h3>
+                        <p class="conteudo-texto">Análise e desenvolvimento de sistemas</p>
+                    </section>
+                    <section class="conteudo-informacao conteudo-curso">
+                        <h3 class="conteudo-titulo">Cursos</h3>
+                        <p class="conteudo-texto">Conhecimento em HTML5 e CSS3 / Conhecimentos em JavaScript /
+                            Conhecimento
+                            de Git e Github / Conhecimentos em Java / Conhecimentos de POO em Java</p>
+                    </section>
+                </div>
+
             </div>
         </main>
         <footer class="rodape">
@@ -81,6 +87,9 @@
             </a>
         </footer>
     </div>
+
+    <script src="script/scroll.js" defer></script>
+    <script src="script/app.js" defer></script>
 
 </body>
 

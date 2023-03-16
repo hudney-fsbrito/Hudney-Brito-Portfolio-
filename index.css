@@ -30,21 +30,31 @@ body {
     align-items: center;
 }
 
-.menu-container-item {
+.menu-container-item, a {
     padding: 5px;
     color: #1059A1;
     border-radius: 50px;
+    transition: .8s;
 }
 
-nav a:hover {
+li a:hover {
     background-color: #1059A1;
     color: #FFEF44;
     transition: .8s;
     padding-right: 25px;
     padding-left: 25px;
+    cursor: pointer;
 }
+/* nav a:hover {
+    color: #FFEF44;
+    background-color: red;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-size: contain;
+} */
 
 .cabecalho {
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -53,7 +63,7 @@ nav a:hover {
 }
 
 .cabecalho-imagem {
-    height: 500px;
+    height: 400px;
 }
 
 h1 {
@@ -104,9 +114,14 @@ h1 {
 }
 
 #conteudo-sobreMim {
-    width: 70%;
-    margin: auto;
+    /* width: 80%; */
+    /* margin: auto; */
     padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-conteudo-informacao-conteudo-sobre{
+    width: 40%;
 }
 
 .conteudo-titulo {

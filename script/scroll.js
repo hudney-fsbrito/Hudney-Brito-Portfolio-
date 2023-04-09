@@ -7,7 +7,7 @@ meusItens.forEach( item => {
 function scrollParaId(event){
     event.preventDefault();
    
-    const to = scrollParaHref(event.target) - 50;
+    const to = scrollParaHref(event.target) - 65;
 
     scrollParaTopoDaPagina(to)
 

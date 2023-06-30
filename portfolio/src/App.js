@@ -1,14 +1,15 @@
 // import logo from './logo.svg';
 // import React from 'react'
 import './App.css';
+import MenuBar from "./componentes/MenuBar";
 import Header from './componentes/Header';
 import Foto from "./componentes/assets/fone-embacado.png";
 
 
 function App() {
     return (
-        <div className='container'>
-
+        <div className='container bg-success'>
+            <MenuBar></MenuBar>
             <Header foto={Foto}></Header>
 
             <main className="conteudo">

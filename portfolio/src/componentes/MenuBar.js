@@ -13,23 +13,30 @@ function MenuBar(props) {
 
 
     <Navbar expand="md" >
-      <Container>
+      <Container >
 
-        <Navbar.Brand href="#home">Hudney Brito</Navbar.Brand>
+        <Navbar.Brand href="#home" className="text-light ">Hudney Brito</Navbar.Brand>
 
-        <Navbar.Toggle type="button" className="btn btn-warning border border-light" data-bs-toggle="collapse" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
-          <i className="bi bi-list "></i>
+        <Navbar.Toggle type="button" className="btn btn-primary border border-light" data-bs-toggle="collapse" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+          <i className="bi bi-list text-light"></i>
         </Navbar.Toggle>
 
-        <Navbar.Collapse  id="navbarSupportedContent">
+        <Navbar.Collapse className="d-xxl-flex justify-content-end" id="navbarSupportedContent">
           <div className="d-flex justify-content-end">
 
-            <Nav className="ms-auto">
-
-              <Nav.Link href="#">Página inicial</Nav.Link>
-              <Nav.Link href="#projetos">Projetos</Nav.Link>
-              <Nav.Link href="#conteudo-sobreMim">Sobre mim</Nav.Link>
-              <Nav.Link href="contact.html">Contato</Nav.Link>
+            <Nav className="ms-3 d-flex gap-2">
+              <Nav.Item >
+                <Nav.Link href="#" className=" text-light border border-light p-2">Página inicial</Nav.Link>
+              </Nav.Item>
+              <Nav.Item >
+                <Nav.Link href="#projetos" className=" text-light border border-light p-2">Projetos</Nav.Link>
+              </Nav.Item>
+              <Nav.Item >
+                <Nav.Link href="#conteudo-sobreMim" className=" text-light border border-light p-2">Sobre mim</Nav.Link>
+              </Nav.Item>
+              <Nav.Item >
+                <Nav.Link href="contact.html" className=" text-light border border-light p-2">Contato</Nav.Link>
+              </Nav.Item>
             </Nav>
           </div>
         </Navbar.Collapse>

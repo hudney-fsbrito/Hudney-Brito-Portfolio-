@@ -7,9 +7,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap'); */
 /* font-family: 'Righteous', cursive;
 font-family: 'Sarala', sans-serif; */
-/* @import url('https://fonts.googleapis.com/css2? family= Exo:wght@300;400;600;700;800;900 & Montserrat+Alternates:wght@400;600;800 & family= Roboto: wght@400;700;900 & display=swap'); */
+@import url('https://fonts.googleapis.com/css2? family= Exo:wght@300;400;600;700;800;900 & Montserrat+Alternates:wght@400;600;800 & family= Roboto: wght@400;700;900 & display=swap');
 
-/* @keyframes pisca {
+@keyframes pisca {
     0% {
         opacity: 1;
         color: black;
@@ -26,7 +26,7 @@ font-family: 'Sarala', sans-serif; */
     100% {
         opacity: 1;
     }
-} */
+}
 
 body {
     font-family: 'Montserrat Alternates','Exo','Roboto',  sans-serif;
@@ -48,6 +48,14 @@ body {
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+}
+.saudacao::after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+    z-index: 0;
+   
 }
 
 /* .menu {
@@ -119,14 +127,6 @@ h1 {
     color: white;
 }
 
-.cabecalho-texto-titulo::after {
-    content: "|";
-    margin-left: 5px;
-    opacity: 1;
-    animation: pisca .7s infinite;
-    z-index: 0;
-   
-}
 
 .conteudo {
     background-color: #171717;

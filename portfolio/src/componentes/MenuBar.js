@@ -9,6 +9,14 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function MenuBar(props) {
 
+  let linksMenu = props.links.map(link => 
+
+    <Nav.Item key={link}>
+      <Nav.Link href={`#${link}`}  className=" text-light border border-light p-2">{link}</Nav.Link>
+    </Nav.Item>
+
+  )
+
   return (
 
 
@@ -25,18 +33,7 @@ function MenuBar(props) {
           <div className="d-flex justify-content-end">
 
             <Nav className="ms-3 d-flex gap-2">
-              <Nav.Item >
-                <Nav.Link href="#" className=" text-light border border-light p-2">Página inicial</Nav.Link>
-              </Nav.Item>
-              <Nav.Item >
-                <Nav.Link href="#projetos" className=" text-light border border-light p-2">Projetos</Nav.Link>
-              </Nav.Item>
-              <Nav.Item >
-                <Nav.Link href="#conteudo-sobreMim" className=" text-light border border-light p-2">Sobre mim</Nav.Link>
-              </Nav.Item>
-              <Nav.Item >
-                <Nav.Link href="contact.html" className=" text-light border border-light p-2">Contato</Nav.Link>
-              </Nav.Item>
+              {linksMenu}
             </Nav>
           </div>
         </Navbar.Collapse>

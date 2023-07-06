@@ -9,11 +9,11 @@ import Foto from "./componentes/assets/fone-embacado.png";
 function App() {
     return (
         <div className='container bg-success'>
-            <MenuBar></MenuBar>
+            <MenuBar links={["Início", "Projetos", "Sobre", "Contato"]}></MenuBar>
             <Header foto={Foto}></Header>
 
             <main className="conteudo">
-                <h2 id="projetos">Projetos</h2>
+                <h2 id="Projetos">Projetos</h2>
                 <section className="conteudo-projeto">
                     <section className="conteudo-projeto-item">Em construção</section>
                     <section className="conteudo-projeto-item">Em construção</section>
@@ -21,7 +21,7 @@ function App() {
                     <section className="conteudo-projeto-item">Em construção</section>
                     <section className="conteudo-projeto-item">Em construção</section>
                 </section>
-                <div id="conteudo-sobreMim">
+                <div id="Sobre">
 
                     <div className="container-conteudo-informacao-conteudo-sobre" >
                         <section className="conteudo-informacao conteudo-sobre">

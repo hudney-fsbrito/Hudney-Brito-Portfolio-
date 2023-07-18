@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Hudney-Brito-Portfolio-/static/css/main.4a18a2a8.css",
+    "main.js": "/Hudney-Brito-Portfolio-/static/js/main.8249b2e6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Hudney-Brito-Portfolio-/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fone-embacado.png": "/Hudney-Brito-Portfolio-/static/media/fone-embacado.5ea092c23164a1bca519.png",
+    "index.html": "/Hudney-Brito-Portfolio-/index.html",
+    "main.4a18a2a8.css.map": "/Hudney-Brito-Portfolio-/static/css/main.4a18a2a8.css.map",
+    "main.8249b2e6.js.map": "/Hudney-Brito-Portfolio-/static/js/main.8249b2e6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Hudney-Brito-Portfolio-/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a18a2a8.css",
+    "static/js/main.8249b2e6.js"
+  ]
+}

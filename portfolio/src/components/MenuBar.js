@@ -15,7 +15,7 @@ function MenuBar(props) {
       <Nav.Link href={`#${link}`}  className=" text-light border border-light p-2">{link}</Nav.Link>
     </Nav.Item>
 
-  )
+  )     
 
   return (
 

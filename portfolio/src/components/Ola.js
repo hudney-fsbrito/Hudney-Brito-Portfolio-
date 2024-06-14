@@ -17,7 +17,7 @@ function Ola(props) {
         
         texto.map((letra, i) => (
             setTimeout(() => {
-                
+                setOla(' ')
                 setOla(ola += letra)
 
             }, 100 * i)

@@ -1,16 +1,19 @@
 // import logo from './logo.svg';
 // import React from 'react'
-import './App.css';
-import MenuBar from "./componentes/MenuBar";
-import Header from './componentes/Header';
-import Foto from "./componentes/assets/fone-embacado.png";
+
+import Header from './components/Header';
+import Foto from "./assets/fone-embacado.png";
+import Topo from './components/Header';
 
 
 function App() {
     return (
         <div className='container bg-success'>
-            <MenuBar links={["Início", "Projetos", "Sobre", "Contato"]}></MenuBar>
-            <Header foto={Foto}></Header>
+            <Topo ></Topo>
+            <Header foto={Foto}>
+
+            </Header>
+            
 
             <main className="conteudo">
                 <h2 id="Projetos">Projetos</h2>
